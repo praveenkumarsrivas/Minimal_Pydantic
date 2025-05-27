@@ -1,6 +1,6 @@
 '''
 if age ofthe patient is greater then 60 then it should be considered as senior citizen
-and make sure in contact details it should have atleast one emergencycontact details
+and make sure in contact details it should have atleast one emergency contact details
 '''
 
 from pydantic import BaseModel, Field, EmailStr, conint, constr, field_validator, model_validator
